@@ -1,0 +1,13 @@
+# ZCT, Zádanie 1, Maksym Furmanov
+
+Táto webová aplikácia pozostáva z frontendu v Reacte a backendovej API v Flaske spojená s databázou PostgreSQL.
+Aplikácia umožňuje nahrávať a ukladať správy na webovej stránke.
+
+Skripty na pripravu, spustenie a vymazanie aplikácie sa nachádzajú v priečinku scripts
+
+Aplikácia bude bežať na https://localhost:3000
+
+## Komponenty:
+- Frontend: React
+- Backend: Flask
+- Database: PostgreSQL
