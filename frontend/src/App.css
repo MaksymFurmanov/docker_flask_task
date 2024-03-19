@@ -1,0 +1,74 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App h1 {
+    margin: 1.5em 0;
+}
+
+.messages-container {
+    overflow-y: scroll;
+    width: 65%;
+    max-height: 25em;
+}
+
+.Message,
+.NewMessage {
+    width: 90%;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.message-heading,
+.message-heading div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-heading svg,
+.message-heading img {
+    height: auto;
+    width: 3em;
+    margin-right: 0.5em;
+}
+
+.message-heading h4,
+.message-heading p {
+    margin-top: 0.5em;
+}
+
+.message-content {
+    margin: 0 0 1em 3.5em;
+    word-wrap: break-word;
+}
+
+.NewMessage {
+    display: flex;
+    align-items: flex-end;
+}
+
+.NewMessage textarea {
+    width: 90%;
+    font-size: 1rem;
+    resize: none;
+    border: none;
+}
+
+.NewMessage textarea:focus-visible {
+    outline: none;
+}
+
+.NewMessage button {
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
